@@ -5,9 +5,8 @@ object BeerO {
     beer(5)
   }
   def beer(a: Int): Unit ={
-  for (a<-a until 0 by-1){
-    println(a+" bottles of beer")
-  }
-    println("no beer")
+    (a to 1 by -1).toList.foreach(elem => println(elem + "bottles of beer"))
+    println("No beer")
+//    println(((b-=1)+""+b+" bottles of beer\n")*a) //My funky way (which doesn't fully work ;( )
   }
 }
