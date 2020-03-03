@@ -20,5 +20,8 @@ object Hang {
   def input(): Unit ={
 
   }
+  def inputChecl: Unit ={
+
+  }
 
 }
