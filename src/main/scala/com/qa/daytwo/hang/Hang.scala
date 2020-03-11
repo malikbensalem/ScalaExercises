@@ -36,6 +36,7 @@ object Hang {
       }
     }
   }
+
   //draws hangman (kinda not really)
   def drawHang(): Unit ={ //idk how to draw hangman
     println("life: "+life)
