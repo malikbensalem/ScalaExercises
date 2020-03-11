@@ -1,6 +1,9 @@
 import com.qa.dayone.assignment.Assignment
-import org.scalatest._
+import org.scalatest.FlatSpec
 
-class test extends FeatureSpec with GivenWhenThen {
-      assert(Assignment.hello=="hello")
-    }
+
+class test extends FlatSpec {
+  "" should "" in {
+    assert(Assignment.hello == "hello")
+  }
+}
